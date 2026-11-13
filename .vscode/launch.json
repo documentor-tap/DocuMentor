@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DocuMentor",
+            "request": "launch",
+            "mainClass": "documentor.Main",
+            "cwd": "${workspaceFolder}",
+            "encoding": "UTF-8"
+        }
+    ]
+}
