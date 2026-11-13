@@ -1,0 +1,11 @@
+El proceso de ingeniería de requisitos consta de cuatro actividades principales:
+1. Estudio de viabilidad.
+2. Obtención y análisis de requisitos.
+3. Especificación de requisitos.
+4. Validación de requisitos.
+
+La validación es crucial porque un error en esta etapa costará hasta 100 veces más si se descubre durante el mantenimiento.
+
+Un requisito funcional es una declaración de los servicios que debe proporcionar el sistema. Un requisito no funcional es una restricción sobre los servicios o funciones que ofrece el sistema, como el tiempo de respuesta o la seguridad.
+
+El estudio de viabilidad consiste en evaluar si el sistema contribuye a los objetivos de la organización.
