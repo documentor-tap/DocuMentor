@@ -1,0 +1,22 @@
+# ================================================================
+#  DocuMentor - configuración de IA (OpenRouter, solo modelos GRATIS)
+#  1) Copia este archivo como "documentor.properties" junto a DocuMentor.jar
+#  2) Pega tu API key (https://openrouter.ai/keys)
+#  ¡NO subas documentor.properties a GitHub ni lo compartas!
+# ================================================================
+
+openrouter.api_key=sk-or-v1-PEGA_AQUI_TU_CLAVE
+
+# Modelos a probar en orden, separados por coma. Solo se aceptan los que terminan
+# en ":free" y el enrutador "openrouter/free" (elige un modelo gratis disponible).
+# Cualquier modelo de pago se ignora automáticamente.
+openrouter.modelos=openrouter/free
+
+# Si los anteriores fallan, buscar otros modelos ":free" en el catálogo de OpenRouter
+openrouter.descubrir_modelos=true
+
+# Segundos de espera por petición (los modelos gratis pueden ser lentos)
+openrouter.timeout_segundos=90
+
+# Máximo de caracteres del documento que se envían a la IA
+openrouter.max_caracteres=15000

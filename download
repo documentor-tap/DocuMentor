@@ -1,0 +1,38 @@
+# ================================================================
+#  DocuMentor · .gitignore (SDC-000 v1.1 · Anexo A)
+# ================================================================
+
+# --- Credenciales: NUNCA se suben -------------------------------
+# La API key de OpenRouter vive solo en este archivo local.
+documentor.properties
+*.key
+.env
+
+# --- Compilados y empaquetados ----------------------------------
+out/
+build/
+bin/
+*.class
+# DocuMentor.jar SÍ se versiona en la raíz: es el ejecutable de entrega
+# (Java 8+). Cualquier otro .jar de pruebas va en build/ u out/.
+
+# --- IDE: configuración personal --------------------------------
+# VS Code: se versionan solo settings.json y launch.json (configuración
+# compartida del proyecto); el resto de la carpeta es personal.
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.iml
+# Eclipse: .project, .classpath y .settings/ SÍ se versionan.
+.metadata/
+
+# --- Sistema operativo ------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Registros y temporales -------------------------------------
+*.log
+*.tmp
+*~
