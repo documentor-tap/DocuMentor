@@ -1,0 +1,15 @@
+DocuMentor · Mockups y tableros (9 de noviembre de 2026)
+
+wireframes/  Bocetos de baja fidelidad (W1 a W6).
+capturas/    Pantallas reales de DocuMentor (mockups de alta fidelidad).
+tableros/    Capturas del tablero web del equipo: Kanban por sprint, tablero
+             de cada integrante, detalle y edición de una tarea, y la vista
+             «Sprints, equipo y backlog».
+
+respaldo_tablero_documentor.json
+             Estado del tablero al 9/11/2026. Se puede restaurar desde el
+             tablero web: «Sprints, equipo y backlog» → Respaldo →
+             «Importar respaldo…».
+
+El tablero editable vive en claude.ai (enlace compartido por el líder del
+proyecto). Ya no se usa el HTML de solo lectura de la versión anterior.

@@ -1,0 +1,1241 @@
+{
+ "formato": "tablero-documentor",
+ "version": 1,
+ "integrantes": [
+  {
+   "id": "UM",
+   "nombre": "Uriel Martínez Zamora",
+   "corto": "Uriel",
+   "rol": "Líder del proyecto (1.º al mando) · Product Owner · Full Stack Developer",
+   "mando": 1,
+   "color": "#7C3AED",
+   "areas": "Arquitectura, alcance y backlog · Módulo de examen (vista + lógica) · SDC-000",
+   "orden": 1
+  },
+  {
+   "id": "AR",
+   "nombre": "Ángel Ismael Rivera García",
+   "corto": "Ismael",
+   "rol": "Sublíder (2.º al mando) · Scrum Master · Full Stack Developer",
+   "mando": 2,
+   "color": "#2563EB",
+   "areas": "Integración con OpenRouter (cliente, generador, respaldo) · Diagnóstico de errores de conexión",
+   "orden": 2
+  },
+  {
+   "id": "BG",
+   "nombre": "Brian Alexis Godínez Cruz",
+   "corto": "Brian",
+   "rol": "Full Stack Developer",
+   "mando": 0,
+   "color": "#0891B2",
+   "areas": "Lectura de documentos (TXT/PDF) · Simulador de IA y límites de generación · Prueba real de HU-18",
+   "orden": 3
+  },
+  {
+   "id": "YB",
+   "nombre": "Yolotl Yetzi Barrera Chávez",
+   "corto": "Yolotl",
+   "rol": "Full Stack Developer",
+   "mando": 0,
+   "color": "#DB2777",
+   "areas": "Tema y configuración (panel lateral y API key) · Divisor de resultados · Cantidad y exportación",
+   "orden": 4
+  },
+  {
+   "id": "RA",
+   "nombre": "Ricardo Ambriz Ríos",
+   "corto": "Ricardo",
+   "rol": "Full Stack Developer",
+   "mando": 0,
+   "color": "#EA580C",
+   "areas": "Estructura de la interfaz (CardLayout, componentes, SwingWorker) · Módulo de flashcards",
+   "orden": 5
+  },
+  {
+   "id": "CS",
+   "nombre": "Carlos Emiliano Salazar Alanis",
+   "corto": "Carlos",
+   "rol": "Full Stack Developer",
+   "mando": 0,
+   "color": "#16A34A",
+   "areas": "HU-18 de punta a punta (PDF de contexto) · Mockups, tooltips, VS Code y documentación del equipo",
+   "orden": 6
+  }
+ ],
+ "sprints": [
+  {
+   "id": "S1",
+   "nombre": "Sprint 1",
+   "inicio": "2026-09-30",
+   "fin": "2026-10-13",
+   "objetivo": "Versión base v1.0: lectura, generación (simulador y OpenRouter), repaso, examen y tema"
+  },
+  {
+   "id": "S2",
+   "nombre": "Sprint 2 (v1+)",
+   "inicio": "2026-10-14",
+   "fin": "2026-10-21",
+   "objetivo": "Seis mejoras de la versión v1+ (configuración, tooltips, divisor, edición en línea, exportación, cantidad)"
+  },
+  {
+   "id": "S3",
+   "nombre": "Sprint 3",
+   "inicio": "2026-10-22",
+   "fin": "2026-11-02",
+   "objetivo": "Historias v1+ documentadas y HU-18 (PDF de contexto)"
+  },
+  {
+   "id": "S4",
+   "nombre": "Sprint 4",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-14",
+   "objetivo": "SDC-000 v1.1 (migración a GitHub y alineación de documentos), prueba real de HU-18 y documentación del equipo"
+  }
+ ],
+ "epicas": [
+  {
+   "id": "E1",
+   "nombre": "Lectura de documentos",
+   "color": "#0EA5E9"
+  },
+  {
+   "id": "E2",
+   "nombre": "Generación con IA",
+   "color": "#8B5CF6"
+  },
+  {
+   "id": "E3",
+   "nombre": "Repaso y evaluación",
+   "color": "#F59E0B"
+  },
+  {
+   "id": "E4",
+   "nombre": "Interfaz y experiencia",
+   "color": "#EC4899"
+  },
+  {
+   "id": "E5",
+   "nombre": "Gestión, documentación e infraestructura",
+   "color": "#64748B"
+  }
+ ],
+ "historias": [
+  {
+   "id": "HU-01",
+   "titulo": "Cargar documento y extraer texto",
+   "epica": "E1",
+   "sprint": "S1",
+   "sp": 5,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-02",
+   "titulo": "Notificar errores de lectura",
+   "epica": "E1",
+   "sprint": "S1",
+   "sp": 2,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-03",
+   "titulo": "Generar flashcards con IA",
+   "epica": "E2",
+   "sprint": "S1",
+   "sp": 8,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-04",
+   "titulo": "Generar examen",
+   "epica": "E2",
+   "sprint": "S1",
+   "sp": 5,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-05",
+   "titulo": "Navegar y voltear flashcards",
+   "epica": "E3",
+   "sprint": "S1",
+   "sp": 5,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-06",
+   "titulo": "Retroalimentación inmediata",
+   "epica": "E3",
+   "sprint": "S1",
+   "sp": 5,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-07",
+   "titulo": "Eliminar elementos",
+   "epica": "E3",
+   "sprint": "S1",
+   "sp": 3,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-08",
+   "titulo": "Editar elementos",
+   "epica": "E3",
+   "sprint": "S1",
+   "sp": 3,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-09",
+   "titulo": "Modo oscuro",
+   "epica": "E4",
+   "sprint": "S1",
+   "sp": 3,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-10",
+   "titulo": "Interfaz sin bloqueo",
+   "epica": "E4",
+   "sprint": "S1",
+   "sp": 5,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-11",
+   "titulo": "Indicador de progreso",
+   "epica": "E4",
+   "sprint": "S1",
+   "sp": 2,
+   "descripcion": ""
+  },
+  {
+   "id": "HU-12",
+   "titulo": "Menú lateral de configuración y API key",
+   "epica": "E4",
+   "sprint": "S2",
+   "sp": 8,
+   "descripcion": "Como estudiante, quiero abrir un menú lateral donde pueda cambiar el tema y administrar mi API key de OpenRouter, para configurar la aplicación sin editar archivos a mano ni reiniciarla."
+  },
+  {
+   "id": "HU-13",
+   "titulo": "Tooltips contextuales",
+   "epica": "E4",
+   "sprint": "S2",
+   "sp": 2,
+   "descripcion": "Como estudiante, quiero ver una breve ayuda al posar el cursor sobre cada control, para entender qué hace cada botón sin consultar un manual."
+  },
+  {
+   "id": "HU-14",
+   "titulo": "Redimensionar y ampliar la vista de resultados",
+   "epica": "E4",
+   "sprint": "S2",
+   "sp": 3,
+   "descripcion": "Como estudiante, quiero cambiar el tamaño del área de flashcards y examen, para aprovechar la pantalla cuando ya no necesito ver el documento."
+  },
+  {
+   "id": "HU-15",
+   "titulo": "Edición en línea de flashcards y preguntas",
+   "epica": "E3",
+   "sprint": "S2",
+   "sp": 5,
+   "descripcion": "Como estudiante, quiero corregir el texto del material directamente donde lo estoy viendo, para arreglar imprecisiones de la IA sin abrir ventanas emergentes."
+  },
+  {
+   "id": "HU-16",
+   "titulo": "Exportación con respuestas marcadas",
+   "epica": "E3",
+   "sprint": "S2",
+   "sp": 3,
+   "descripcion": "Como estudiante, quiero que el examen exportado indique cuál es la respuesta correcta de cada pregunta, para usarlo como guía de estudio impresa o en otra aplicación."
+  },
+  {
+   "id": "HU-17",
+   "titulo": "Elegir la cantidad de flashcards o preguntas",
+   "epica": "E2",
+   "sprint": "S2",
+   "sp": 5,
+   "descripcion": "Como estudiante, quiero decidir cuántas flashcards o preguntas se generan, para ajustar el material al tiempo que tengo para estudiar."
+  },
+  {
+   "id": "HU-18",
+   "titulo": "Adjuntar PDF completos como contexto",
+   "epica": "E2",
+   "sprint": "S3",
+   "sp": 8,
+   "descripcion": "Como estudiante, quiero adjuntar uno o varios PDF originales, sin convertir, como contexto para la IA, para que el material se base en mis documentos completos aunque la vista previa no pueda mostrar su texto."
+  }
+ ],
+ "tareas": [
+  {
+   "id": "DM-10",
+   "clave": "DM-10",
+   "tipo": "Tarea",
+   "resumen": "Definir arquitectura MVC y estructura de paquetes",
+   "epica": "E5",
+   "hu": "Transversal",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "Paquetes documentor.modelo, .vista, .controlador; clase Main",
+   "descripcion": "Se definió la separación Modelo-Vista-Controlador, la convención de nombres con prefijos (btn, pnl, lbl, txt) y la interfaz GeneradorMaterial para desacoplar el motor de IA."
+  },
+  {
+   "id": "DM-11",
+   "clave": "DM-11",
+   "tipo": "Tarea",
+   "resumen": "Paleta 60-30-10 y gestor de tema claro/oscuro",
+   "epica": "E4",
+   "hu": "HU-09",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "GestorTema.java",
+   "descripcion": "Paleta #181A20 / #262A34 / #3B82F6, versión clara y cambio de tema en caliente recorriendo el árbol de componentes."
+  },
+  {
+   "id": "DM-12",
+   "clave": "DM-12",
+   "tipo": "Documentación",
+   "resumen": "Wireframes iniciales: pantalla principal, flashcards y examen",
+   "epica": "E4",
+   "hu": "HU-05, HU-06",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 2,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "Wireframes (sección de mockups)",
+   "descripcion": "Distribución 40 % documento / 60 % resultados, barra superior y estados del CardLayout."
+  },
+  {
+   "id": "DM-13",
+   "clave": "DM-13",
+   "tipo": "Tarea",
+   "resumen": "Entidades del modelo: Documento, Flashcard, PreguntaExamen y SesionEstudio",
+   "epica": "E3",
+   "hu": "HU-05 a HU-08",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "Documento.java, Flashcard.java, PreguntaExamen.java, SesionEstudio.java",
+   "descripcion": "Estado en memoria de la sesión: navegación, edición, eliminación y puntaje del examen."
+  },
+  {
+   "id": "DM-14",
+   "clave": "DM-14",
+   "tipo": "Tarea",
+   "resumen": "Lectura de .txt y .pdf (LectorDocumentos y ExtractorPdfBasico)",
+   "epica": "E1",
+   "hu": "HU-01",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 5,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "LectorDocumentos.java, ExtractorPdfBasico.java",
+   "descripcion": "TXT en UTF-8 con respaldo ANSI; PDF con filtros Flate, ASCII85 y ASCIIHex; usa Apache PDFBox si está en el classpath."
+  },
+  {
+   "id": "DM-15",
+   "clave": "DM-15",
+   "tipo": "Tarea",
+   "resumen": "Mensajes de error de lectura",
+   "epica": "E1",
+   "hu": "HU-02",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 2,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "LectorDocumentos.java, ControladorPrincipal.java",
+   "descripcion": "Formato no soportado, PDF cifrado/dañado y PDF sin texto legible; la app sigue funcionando y la generación queda deshabilitada."
+  },
+  {
+   "id": "DM-16",
+   "clave": "DM-16",
+   "tipo": "Tarea",
+   "resumen": "Simulador de IA local (SimuladorIA)",
+   "epica": "E2",
+   "hu": "HU-03, HU-04",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 5,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "SimuladorIA.java",
+   "descripcion": "Detecta listas, causas, definiciones y datos numéricos; genera flashcards y preguntas con distractores sin Internet."
+  },
+  {
+   "id": "DM-17",
+   "clave": "DM-17",
+   "tipo": "Tarea",
+   "resumen": "Vistas HeaderView y DocumentView (vista previa, zoom, selección)",
+   "epica": "E1",
+   "hu": "HU-01",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "HeaderView.java, DocumentView.java",
+   "descripcion": "Barra superior, nombre del archivo, área de solo lectura, zoom ±2 pt y botón «Generar desde selección»."
+  },
+  {
+   "id": "DM-18",
+   "clave": "DM-18",
+   "tipo": "Tarea",
+   "resumen": "InteractiveView con CardLayout (vacío, carga, flashcards, examen, resultado)",
+   "epica": "E4",
+   "hu": "HU-11",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "InteractiveView.java",
+   "descripcion": "Panel derecho con estados y JProgressBar indeterminado «Generando material…»."
+  },
+  {
+   "id": "DM-19",
+   "clave": "DM-19",
+   "tipo": "Tarea",
+   "resumen": "FlashcardView: voltear, anterior/siguiente y contador",
+   "epica": "E3",
+   "hu": "HU-05",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "FlashcardView.java",
+   "descripcion": "Tarjeta centrada, botones de navegación con habilitado según posición y «Tarjeta X de Y»."
+  },
+  {
+   "id": "DM-20",
+   "clave": "DM-20",
+   "tipo": "Tarea",
+   "resumen": "ExamenView: opciones, confirmar, retroalimentación y resultado",
+   "epica": "E3",
+   "hu": "HU-06",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "ExamenView.java, InteractiveView.java",
+   "descripcion": "Correcto/Incorrecto inmediato, opción correcta resaltada, bloqueo tras responder y pantalla «X / Y» al final."
+  },
+  {
+   "id": "DM-21",
+   "clave": "DM-21",
+   "tipo": "Tarea",
+   "resumen": "Componentes visuales reutilizables",
+   "epica": "E4",
+   "hu": "Transversal",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "vista/componentes/*: BotonEstilizado, PanelRedondeado, IconoVectorial, TextoAjustable, LayoutCentrado…",
+   "descripcion": "Botones planos, paneles redondeados, iconos vectoriales (sin emojis) y texto con ajuste automático de línea."
+  },
+  {
+   "id": "DM-22",
+   "clave": "DM-22",
+   "tipo": "Tarea",
+   "resumen": "Controlador con SwingWorker, progreso y atajos de teclado",
+   "epica": "E4",
+   "hu": "HU-10, HU-11",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 5,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "ControladorPrincipal.java",
+   "descripcion": "Lectura y generación fuera del EDT, botones deshabilitados durante la petición, Espacio/←/→ con KeyBindings."
+  },
+  {
+   "id": "DM-23",
+   "clave": "DM-23",
+   "tipo": "Tarea",
+   "resumen": "Editar y eliminar flashcards y preguntas (versión con diálogos)",
+   "epica": "E3",
+   "hu": "HU-07, HU-08",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 2,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "DialogosVista.java (reemplazado en v1+)",
+   "descripcion": "Edición con diálogo y eliminación con confirmación; el contador se actualiza."
+  },
+  {
+   "id": "DM-24",
+   "clave": "DM-24",
+   "tipo": "Tarea",
+   "resumen": "Exportación a .txt y .csv con FileWriter",
+   "epica": "E3",
+   "hu": "QoL",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 2,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "ExportadorMaterial.java",
+   "descripcion": "Exporta flashcards o examen; CSV compatible con Excel."
+  },
+  {
+   "id": "DM-25",
+   "clave": "DM-25",
+   "tipo": "Bug",
+   "resumen": "«A Java Exception has occurred» al abrir el .jar",
+   "epica": "E5",
+   "hu": "—",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 1,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "05/10/2026",
+   "entregables": "DocuMentor.jar (Java 8), Ejecutar_DocuMentor.bat",
+   "descripcion": "El .jar estaba compilado para Java 11 y Windows lo abría con Java 8. Se volvió compatible con Java 8 y se agregó un lanzador .bat que muestra errores."
+  },
+  {
+   "id": "DM-26",
+   "clave": "DM-26",
+   "tipo": "Tarea",
+   "resumen": "Cliente HTTP de OpenRouter y lector JSON",
+   "epica": "E2",
+   "hu": "HU-03, HU-04",
+   "asignados": [
+    "AR"
+   ],
+   "sp": 5,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "12/10/2026",
+   "entregables": "ClienteOpenRouter.java, JsonSimple.java, ExcepcionIA.java",
+   "descripcion": "HttpURLConnection compatible con Java 8, manejo de códigos HTTP y mensajes legibles."
+  },
+  {
+   "id": "DM-27",
+   "clave": "DM-27",
+   "tipo": "Tarea",
+   "resumen": "GeneradorOpenRouter: solo modelos gratuitos",
+   "epica": "E2",
+   "hu": "HU-03, HU-04",
+   "asignados": [
+    "AR"
+   ],
+   "sp": 5,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "12/10/2026",
+   "entregables": "GeneradorOpenRouter.java",
+   "descripcion": "Prompts en español, interpretación robusta del JSON, opciones barajadas, rotación de modelos :free y bloqueo de modelos de pago."
+  },
+  {
+   "id": "DM-28",
+   "clave": "DM-28",
+   "tipo": "Tarea",
+   "resumen": "Configuración de IA y generador con respaldo",
+   "epica": "E2",
+   "hu": "HU-03",
+   "asignados": [
+    "AR"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "12/10/2026",
+   "entregables": "ConfiguracionIA.java, GeneradorConRespaldo.java, documentor.properties.ejemplo",
+   "descripcion": "La clave se lee de documentor.properties (nunca del código); si OpenRouter falla, se usa el simulador y se avisa."
+  },
+  {
+   "id": "DM-29",
+   "clave": "DM-29",
+   "tipo": "Documentación",
+   "resumen": "Guía paso a paso para activar la API key",
+   "epica": "E5",
+   "hu": "—",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 1,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "13/10/2026",
+   "entregables": "README.md (sección OpenRouter)",
+   "descripcion": "Extraer el zip, permisos de privacidad, crear documentor.properties, verificar título de la ventana y tabla de errores."
+  },
+  {
+   "id": "DM-30",
+   "clave": "DM-30",
+   "tipo": "Bug",
+   "resumen": "Error PKIX con antivirus (Kaspersky) al conectar a OpenRouter",
+   "epica": "E2",
+   "hu": "—",
+   "asignados": [
+    "AR"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "13/10/2026",
+   "entregables": "ConfianzaCertificados.java",
+   "descripcion": "Java ignoraba el certificado raíz del antivirus. Se combinó la confianza de Java y de Windows sin desactivar la verificación."
+  },
+  {
+   "id": "DM-31",
+   "clave": "DM-31",
+   "tipo": "Bug",
+   "resumen": "Error 401: limpieza y diagnóstico de la API key",
+   "epica": "E2",
+   "hu": "—",
+   "asignados": [
+    "AR"
+   ],
+   "sp": 2,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "13/10/2026",
+   "entregables": "ConfiguracionIA.java, ClienteOpenRouter.java",
+   "descripcion": "Se eliminan comillas, espacios invisibles y «Bearer»; el aviso indica la clave enmascarada y de dónde se leyó."
+  },
+  {
+   "id": "DM-32",
+   "clave": "DM-32",
+   "tipo": "Bug",
+   "resumen": "Errores 429/403/404 (saturación, modelos de agentes y ZDR)",
+   "epica": "E2",
+   "hu": "—",
+   "asignados": [
+    "AR"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "13/10/2026",
+   "entregables": "ClienteOpenRouter.java, GeneradorOpenRouter.java",
+   "descripcion": "Reintento tras 4 s, prioridad a familias de modelos de chat, mensaje claro cuando la cuenta exige Zero Data Retention."
+  },
+  {
+   "id": "DM-33",
+   "clave": "DM-33",
+   "tipo": "Documentación",
+   "resumen": "Documento de alcance e historias HU-01 a HU-11",
+   "epica": "E5",
+   "hu": "HU-01 a HU-11",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 3,
+   "sprint": "S1",
+   "estado": "Hecho",
+   "fecha": "13/10/2026",
+   "entregables": "DocuMentor_Alcance_Historias_de_Usuario.pdf",
+   "descripcion": "Documento del equipo con 11 requisitos, historias, estimación de 46 SP, arquitectura y flujos."
+  },
+  {
+   "id": "DM-40",
+   "clave": "DM-40",
+   "tipo": "Historia",
+   "resumen": "HU-12 · Panel lateral de configuración (vista)",
+   "epica": "E4",
+   "hu": "HU-12",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 3,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "PanelConfiguracion.java, VentanaPrincipal.java",
+   "descripcion": "Panel deslizable desde la derecha con animación; se cierra con ×, Esc o clic fuera; incluye el cambio de tema."
+  },
+  {
+   "id": "DM-41",
+   "clave": "DM-41",
+   "tipo": "Historia",
+   "resumen": "HU-12 · Guardar, verificar y quitar la API key",
+   "epica": "E2",
+   "hu": "HU-12",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 5,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "ControladorPrincipal.java, ConfiguracionIA.java, ClienteOpenRouter.java (GET /key)",
+   "descripcion": "Verificación sin consumir peticiones, consulta de cuota diaria, guardado en documentor.properties y cambio de motor sin reiniciar."
+  },
+  {
+   "id": "DM-42",
+   "clave": "DM-42",
+   "tipo": "Historia",
+   "resumen": "HU-13 · Redacción de tooltips de todos los controles",
+   "epica": "E4",
+   "hu": "HU-13",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 1,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "Textos de ayuda en todas las vistas",
+   "descripcion": "Tooltips con la acción y el atajo de teclado correspondiente."
+  },
+  {
+   "id": "DM-43",
+   "clave": "DM-43",
+   "tipo": "Tarea",
+   "resumen": "HU-13 · Estilo de tooltips según el tema",
+   "epica": "E4",
+   "hu": "HU-13",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 1,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "GestorTema.configurarTooltips()",
+   "descripcion": "Colores, fuente, borde y retardo de aparición coherentes con el tema activo."
+  },
+  {
+   "id": "DM-44",
+   "clave": "DM-44",
+   "tipo": "Historia",
+   "resumen": "HU-14 · Divisor redimensionable y «Ampliar resultados»",
+   "epica": "E4",
+   "hu": "HU-14",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 3,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "VentanaPrincipal.java, DivisorModerno.java, HeaderView.java",
+   "descripcion": "JSplitPane arrastrable, doble clic para ampliar y botón que alterna Ampliar resultados / Mostrar documento."
+  },
+  {
+   "id": "DM-45",
+   "clave": "DM-45",
+   "tipo": "Historia",
+   "resumen": "HU-15 · Edición en línea de flashcards",
+   "epica": "E3",
+   "hu": "HU-15",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 3,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "FlashcardView.java",
+   "descripcion": "Lápiz o doble clic; edita la cara visible; Ctrl+Enter guarda y Esc cancela."
+  },
+  {
+   "id": "DM-46",
+   "clave": "DM-46",
+   "tipo": "Historia",
+   "resumen": "HU-15 · Formulario embebido para editar preguntas",
+   "epica": "E3",
+   "hu": "HU-15",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 2,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "ExamenView.java, BordeRedondeado.java",
+   "descripcion": "Enunciado, 4 opciones y selector radial de la respuesta correcta; reemplaza DialogosVista."
+  },
+  {
+   "id": "DM-47",
+   "clave": "DM-47",
+   "tipo": "Historia",
+   "resumen": "HU-16 · Exportación con respuestas marcadas",
+   "epica": "E3",
+   "hu": "HU-16",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 3,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "ExportadorMaterial.java",
+   "descripcion": "TXT con [X] y «<-- RESPUESTA CORRECTA», clave con texto; CSV con columna del texto correcto."
+  },
+  {
+   "id": "DM-48",
+   "clave": "DM-48",
+   "tipo": "Historia",
+   "resumen": "HU-17 · Límite de preguntas según la extensión del texto",
+   "epica": "E2",
+   "hu": "HU-17",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 2,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "LimitesGeneracion.java, GeneradorMaterial.calcularMaximo()",
+   "descripcion": "≈1 elemento por cada 20 palabras (máx. 25); el simulador usa los conceptos detectados."
+  },
+  {
+   "id": "DM-49",
+   "clave": "DM-49",
+   "tipo": "Historia",
+   "resumen": "HU-17 · Diálogo «¿Cuántas quieres generar?» con JSlider",
+   "epica": "E2",
+   "hu": "HU-17",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 3,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "DialogoCantidad.java, SliderModerno.java",
+   "descripcion": "Deslizador con botones −/+, explicación del límite, Enter genera y Esc cancela."
+  },
+  {
+   "id": "DM-50",
+   "clave": "DM-50",
+   "tipo": "Tarea",
+   "resumen": "FabricaGeneradores y simplificación de Main",
+   "epica": "E2",
+   "hu": "HU-12",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 1,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "FabricaGeneradores.java, Main.java",
+   "descripcion": "El controlador cambia de motor (OpenRouter o simulador) en caliente."
+  },
+  {
+   "id": "DM-51",
+   "clave": "DM-51",
+   "tipo": "Bug",
+   "resumen": "Alturas incorrectas de tarjetas al redimensionar",
+   "epica": "E4",
+   "hu": "HU-14",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 1,
+   "sprint": "S2",
+   "estado": "Hecho",
+   "fecha": "17/10/2026",
+   "entregables": "TextoAjustable.java, CardLayoutAjustado.java",
+   "descripcion": "Las cajas de opciones conservaban la altura anterior; ahora se recalculan al cambiar el ancho."
+  },
+  {
+   "id": "DM-52",
+   "clave": "DM-52",
+   "tipo": "Tarea",
+   "resumen": "Configuración del proyecto para VS Code",
+   "epica": "E5",
+   "hu": "—",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 1,
+   "sprint": "S2",
+   "estado": "En revisión",
+   "fecha": "20/10/2026",
+   "entregables": ".vscode/settings.json, .vscode/launch.json",
+   "descripcion": "Ruta src, salida bin y UTF-8. Pendiente confirmar que desaparecieron los errores marcados en VS Code."
+  },
+  {
+   "id": "DM-60",
+   "clave": "DM-60",
+   "tipo": "Documentación",
+   "resumen": "Historias HU-12 a HU-18 y product backlog",
+   "epica": "E5",
+   "hu": "HU-12 a HU-18",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 3,
+   "sprint": "S3",
+   "estado": "Hecho",
+   "fecha": "27/10/2026",
+   "entregables": "DocuMentor_Historias_v1plus_Backlog.docx",
+   "descripcion": "Requisitos 12-18, tarjetas de historia con criterios, backlog MoSCoW, tareas de HU-18 y calendario actualizado (80 SP)."
+  },
+  {
+   "id": "DM-61",
+   "clave": "DM-61",
+   "tipo": "Historia",
+   "resumen": "HU-18 · Modelo de PDF de contexto",
+   "epica": "E2",
+   "hu": "HU-18",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 3,
+   "sprint": "S3",
+   "estado": "Hecho",
+   "fecha": "27/10/2026",
+   "entregables": "ArchivoContexto.java, SesionEstudio.java",
+   "descripcion": "Validación de PDF, límites (5 archivos, 10 MB c/u, 20 MB total), duplicados y texto local para el simulador."
+  },
+  {
+   "id": "DM-62",
+   "clave": "DM-62",
+   "tipo": "Historia",
+   "resumen": "HU-18 · Envío de PDF completos a OpenRouter (motor gratuito)",
+   "epica": "E2",
+   "hu": "HU-18",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 3,
+   "sprint": "S3",
+   "estado": "Hecho",
+   "fecha": "27/10/2026",
+   "entregables": "ClienteOpenRouter.java, GeneradorOpenRouter.java, GeneradorConRespaldo.java",
+   "descripcion": "Partes «file» en base64 con el plugin file-parser y motor cloudflare-ai; nunca mistral-ocr (de pago)."
+  },
+  {
+   "id": "DM-63",
+   "clave": "DM-63",
+   "tipo": "Historia",
+   "resumen": "HU-18 · Sección «PDF de contexto» en el panel del documento",
+   "epica": "E4",
+   "hu": "HU-18",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 2,
+   "sprint": "S3",
+   "estado": "Hecho",
+   "fecha": "27/10/2026",
+   "entregables": "DocumentView.java, IconoVectorial (CLIP)",
+   "descripcion": "Botón «Agregar PDF», lista con tamaño y legibilidad, botón × por archivo."
+  },
+  {
+   "id": "DM-64",
+   "clave": "DM-64",
+   "tipo": "Tarea",
+   "resumen": "HU-18 · Flujo en el controlador",
+   "epica": "E2",
+   "hu": "HU-18",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 1,
+   "sprint": "S3",
+   "estado": "Hecho",
+   "fecha": "27/10/2026",
+   "entregables": "ControladorPrincipal.java",
+   "descripcion": "SwingWorker para preparar PDF, avisos y generación solo con contexto."
+  },
+  {
+   "id": "DM-65",
+   "clave": "DM-65",
+   "tipo": "Bug",
+   "resumen": "El extractor PDF descartaba texto por «/Length 2xx»",
+   "epica": "E1",
+   "hu": "HU-01",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 1,
+   "sprint": "S3",
+   "estado": "Hecho",
+   "fecha": "27/10/2026",
+   "entregables": "ExtractorPdfBasico.java",
+   "descripcion": "Al quitar espacios, «/Length 269» se confundía con fuentes incrustadas. Se revisa el diccionario original."
+  },
+  {
+   "id": "DM-66",
+   "clave": "DM-66",
+   "tipo": "Tarea",
+   "resumen": "HU-18 · Prueba con API key real",
+   "epica": "E2",
+   "hu": "HU-18",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 2,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Evidencia de prueba",
+   "descripcion": "Probar PDF exportado de Word, PDF de varias páginas, 5 PDF y el límite de 20 MB con OpenRouter real."
+  },
+  {
+   "id": "DM-70",
+   "clave": "DM-70",
+   "tipo": "Documentación",
+   "resumen": "SDC-000 · Solicitud de cambio: migración a GitHub",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Hecho",
+   "fecha": "03/11/2026",
+   "entregables": "SDC-000_DocuMentor.pdf",
+   "descripcion": "Justificación, impacto, DoD y desglose de tareas para migrar el código a un repositorio con Pull Requests."
+  },
+  {
+   "id": "DM-71",
+   "clave": "DM-71",
+   "tipo": "Tarea",
+   "resumen": "T-000.1 · Repositorio, colaboradores y protección de main",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Repositorio privado en GitHub",
+   "descripcion": "GitHub Pro con Student Developer Pack, 6 colaboradores y Branch Protection Rules (1 aprobación)."
+  },
+  {
+   "id": "DM-72",
+   "clave": "DM-72",
+   "tipo": "Tarea",
+   "resumen": "T-000.2 · .gitignore unificado y plantilla de propiedades",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "AR",
+    "BG"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "En revisión",
+   "fecha": "09/11/2026",
+   "entregables": ".gitignore (Anexo A v1.1), documentor.properties.example, README.md",
+   "descripcion": "Se renombró la plantilla a documentor.properties.example y se escribió el .gitignore del Anexo A v1.1: excluye documentor.properties, compilados y archivos personales del IDE; versiona .vscode/settings.json, .vscode/launch.json, la configuración de Eclipse y DocuMentor.jar. Falta subirlo en el commit inicial (DM-73) y que un compañero lo revise."
+  },
+  {
+   "id": "DM-73",
+   "clave": "DM-73",
+   "tipo": "Tarea",
+   "resumen": "T-000.3 · Commit inicial de la versión v1+",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Commit inicial en main",
+   "descripcion": "Subir primero el .gitignore y verificar con git status que no se rastrea documentor.properties."
+  },
+  {
+   "id": "DM-74",
+   "clave": "DM-74",
+   "tipo": "Tarea",
+   "resumen": "T-000.4 · Onboarding Git (identidad, clon, rama y Pull Request)",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Pull Request desde chore/prueba-git",
+   "descripcion": "Configurar user.name y user.email, clonar, crear la rama chore/prueba-git, commit menor y abrir PR."
+  },
+  {
+   "id": "DM-75",
+   "clave": "DM-75",
+   "tipo": "Tarea",
+   "resumen": "T-000.4 · Onboarding Git (identidad, clon, rama y Pull Request)",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "AR"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Pull Request desde chore/prueba-git",
+   "descripcion": "Configurar user.name y user.email, clonar, crear la rama chore/prueba-git, commit menor y abrir PR."
+  },
+  {
+   "id": "DM-76",
+   "clave": "DM-76",
+   "tipo": "Tarea",
+   "resumen": "T-000.4 · Onboarding Git (identidad, clon, rama y Pull Request)",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "BG"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Pull Request desde chore/prueba-git",
+   "descripcion": "Configurar user.name y user.email, clonar, crear la rama chore/prueba-git, commit menor y abrir PR."
+  },
+  {
+   "id": "DM-77",
+   "clave": "DM-77",
+   "tipo": "Tarea",
+   "resumen": "T-000.4 · Onboarding Git (identidad, clon, rama y Pull Request)",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "YB"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Pull Request desde chore/prueba-git",
+   "descripcion": "Configurar user.name y user.email, clonar, crear la rama chore/prueba-git, commit menor y abrir PR."
+  },
+  {
+   "id": "DM-78",
+   "clave": "DM-78",
+   "tipo": "Tarea",
+   "resumen": "T-000.4 · Onboarding Git (identidad, clon, rama y Pull Request)",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "RA"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Pull Request desde chore/prueba-git",
+   "descripcion": "Configurar user.name y user.email, clonar, crear la rama chore/prueba-git, commit menor y abrir PR."
+  },
+  {
+   "id": "DM-79",
+   "clave": "DM-79",
+   "tipo": "Tarea",
+   "resumen": "T-000.4 · Onboarding Git (identidad, clon, rama y Pull Request)",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Por hacer",
+   "fecha": "—",
+   "entregables": "Pull Request desde chore/prueba-git",
+   "descripcion": "Configurar user.name y user.email, clonar, crear la rama chore/prueba-git, commit menor y abrir PR."
+  },
+  {
+   "id": "DM-80",
+   "clave": "DM-80",
+   "tipo": "Documentación",
+   "resumen": "Documentación del trabajo del equipo (marco, Kanban, mockups y tableros)",
+   "epica": "E5",
+   "hu": "—",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 3,
+   "sprint": "S4",
+   "estado": "En progreso",
+   "fecha": "03/11/2026",
+   "entregables": "DocuMentor_Documentacion_Trabajo_Equipo.docx, tablero web",
+   "descripcion": "Este documento: marco de trabajo, Kanban, bitácora, mockups y tableros individuales. Pendiente validación del equipo."
+  },
+  {
+   "id": "DM-81",
+   "clave": "DM-81",
+   "tipo": "Documentación",
+   "resumen": "SDC-000 v1.1 · Alineación de roles, tecnologías, archivos y sprints",
+   "epica": "E5",
+   "hu": "SDC-000",
+   "asignados": [
+    "UM"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Hecho",
+   "fecha": "09/11/2026",
+   "entregables": "SDC-000_DocuMentor_v1.1.docx",
+   "descripcion": "Revisión del SDC-000 para que coincida con lo implementado: roles (todos Full Stack; Uriel 1.º y Ángel Ismael 2.º al mando), tecnologías reales (OpenRouter gratis, JsonSimple, extractor propio con PDFBox opcional), plantilla documentor.properties.example, .vscode compartido versionado y plan de sprints tal como se ejecutó."
+  },
+  {
+   "id": "DM-82",
+   "clave": "DM-82",
+   "tipo": "Tarea",
+   "resumen": "Tablero web editable y compartido (tareas, sprints, integrantes, épicas e historias)",
+   "epica": "E5",
+   "hu": "Transversal",
+   "asignados": [
+    "CS"
+   ],
+   "sp": 1,
+   "sprint": "S4",
+   "estado": "Hecho",
+   "fecha": "09/11/2026",
+   "entregables": "Tablero web en claude.ai con base de datos compartida y respaldo JSON",
+   "descripcion": "El tablero estilo Jira pasó de solo lectura a editable: cualquier integrante con acceso puede crear, editar, mover (arrastrando) y eliminar tareas, y administrar sprints, integrantes, épicas e historias. Los cambios se ven en vivo para todo el equipo."
+  }
+ ]
+}
